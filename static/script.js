@@ -79,10 +79,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- 核心修改区域开始 ---
     generateBtn.addEventListener('click', async () => {
-        if (!apiKeyInput.value.trim()) {
-            alert('请输入 OpenRouter API 密钥');
-            return;
-        }
+        //if (!apiKeyInput.value.trim()) {
+        //    alert('请输入 OpenRouter API 密钥');
+        //    return;
+        //}
 
         if (selectedFiles.length === 0) {
             alert('请选择至少一张图片');
